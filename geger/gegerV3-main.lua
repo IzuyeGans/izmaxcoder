@@ -396,24 +396,6 @@ function main()
         else
             save_index = script_id % #storage_world
         end
-
-        botindex = 1
-        if script_id % #whMsStatus == 0 then
-            botindex = #whMsStatus
-        else
-            botindex = script_id % #whMsStatus
-        end
-		[[
-        if bot.status == 1 and botOnlineSir == false then
-            webHookEmbed(whMsStatus[botindex], OnlineMoji.." "..getBot().name, "")
-            botOnlineSir = true
-        elseif bot.status ~= 1 and botOnlineSir == true then
-            webHookEmbed(whMsStatus[botindex], OfflineMoji.." "..getBot().name, "")
-            botOnlineSir = false
-        elseif botOnlineSir == false and bot.status ~= 1 then
-        elseif botOnlineSir == true and bot.status == 1 then
-        end
-		]]
         
         checkInventory(bot, save_index)
         startGeiger(bot, index)

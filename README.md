@@ -2,4 +2,4 @@
 
 All of these scripts are recode by Me
 
-Thanks to scripts Owner
+Thanks to scripts Owner (obviusly me)

@@ -376,11 +376,11 @@ function Drop(item, index)
             red_crystal = 2,
             green_crystal = 0.33,
             blue_crystal = 2,
-            white_crystal = 83,
-            black_crystal = 70,
-            geiger_charger = 135,
+            white_crystal = 80,
+            black_crystal = 65,
+            geiger_charger = 130,
             --
-            radioact_chem = 0.33,
+            radioact_chem = 0.25,
         }
     
         local total_value = 0
